@@ -1,0 +1,16 @@
+{
+  "name": "list-logic",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node --color spec/",
+    "dev": "jasmine-node --autotest --watch ./index.js --color spec/"
+  },
+  "author": "sudodoki <smd.deluzion@gmail.com> (http://sudodoki.name/)",
+  "license": "BSD-2-Clause",
+  "private": true,
+  "dev-dependencies": {
+    "jasmine-node": "~1.14.5"
+  }
+}
